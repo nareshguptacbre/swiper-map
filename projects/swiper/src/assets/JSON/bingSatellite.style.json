@@ -1,0 +1,18 @@
+{
+  "version": 8,
+  "glyphs": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf",
+  "sources": {
+    "bing-tiles": {
+      "type": "raster",
+      "tiles": [],
+      "tileSize": 256
+    }
+  },
+  "layers": [{
+    "id": "bing-imagery",
+    "type": "raster",
+    "source": "bing-tiles",
+    "minzoom": 0,
+    "maxzoom": 23
+  }]
+}

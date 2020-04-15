@@ -1,0 +1,29 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: "FuturaBook"
+}
+
+@font-face {
+  font-family: "FuturaBook";
+  src: url("./assets/fonts/futurabk.woff2") format("woff2"),
+    url("./assets/fonts/futurabk.eot");
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  src: url("./assets/fonts/futuramedium.woff2") format("woff2"),
+    url("./assets/fonts/futuramedium.eot");
+}
+
+@font-face {
+  font-family: "FuturaMediumBold";
+  src: url("./assets/fonts/futuramedium_bold.woff2") format("woff2"),
+    url("./assets/fonts/futuramedium_bold.eot");
+}

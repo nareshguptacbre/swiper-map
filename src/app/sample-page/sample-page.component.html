@@ -1,0 +1,30 @@
+<div id="mapOptions">
+  <div id="options">
+    <mat-form-field>
+      <mat-label>Select style</mat-label>
+      <mat-select [(value)]="style">
+        <mat-option *ngFor="let style of styles" value="{{style.value}}">{{style.display}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div id="code">
+    <span class="lightgrey">&lt;</span><span class="red">swiper-map</span><br />
+    <span class="blue tab">[</span><span class="orange">mapboxAccessToken</span><span class="blue">]</span><span
+      class="lightgrey">=</span><span class="green">"YOUR_MAPBOX_API_KEY"</span><br />
+    <span class="blue tab">[</span><span class="orange">lngLat</span><span class="blue">]</span><span
+      class="lightgrey">=</span><span class="green">"[{{ lngLat }}]"</span><br />
+    <span class="blue tab">[</span><span class="orange">zoom</span><span class="blue">]</span><span
+      class="lightgrey">=</span><span class="green">"{{ zoom }}"</span><br />
+    <span class="blue tab">[</span><span class="orange">pitch</span><span class="blue">]</span><span
+      class="lightgrey">=</span><span class="green">"{{ pitch }}"</span><br />
+    <span class="blue tab">[</span><span class="orange">bearing</span><span class="blue">]</span><span
+      class="lightgrey">=</span><span class="green">"{{ bearing }}"</span><br />
+    <span class="blue tab">[</span><span class="orange">style</span><span class="blue">]</span><span
+      class="lightgrey">=</span><span class="green">"{{ style }}"</span><br />
+    <span class="lightgrey">&gt;&lt;/</span><span class="red">swiper-map</span><span class="lightgrey">&gt;</span>
+  </div>
+</div>
+<div id="map">
+  <swiper-map [mapboxAccessToken]="mapboxAccessToken" [lngLat]="lngLat" [zoom]="zoom" [pitch]="pitch"
+    [bearing]="bearing" [style]="style"></swiper-map>
+</div>

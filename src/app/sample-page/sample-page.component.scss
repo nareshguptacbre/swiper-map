@@ -1,0 +1,60 @@
+#mapOptions {
+  height: 240px;
+  width: 100%;
+}
+
+#map {
+  height: calc(100% - 240px);
+  width: 100%;
+}
+
+#options {
+  padding: 32px;
+  float: left;
+  height: 100%;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+#code {
+  background-color: #282C34;
+  float: right;
+  height: 100%;
+  width: 30%;
+  vertical-align: middle;
+  justify-content: center;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 16px 32px;
+  white-space: nowrap
+}
+
+span {
+    display: inline-block;
+    padding: 0 0 8px 0;
+}
+
+.lightgrey {
+    color: lightgrey
+}
+
+.orange {
+    color: #F79646
+}
+
+.red {
+    color: #C0504D
+}
+
+.blue {
+    color: #00B0F0
+}
+
+.green {
+    color: #9BBB59
+}
+
+.tab {
+    margin-left: 16px;
+}

@@ -1,0 +1,6 @@
+@import 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css';
+
+#swiperMap {
+    height: 100%;
+    width: 100%
+}
